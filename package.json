@@ -1,5 +1,5 @@
 {
-  "name": "feed-watcher",
+  "name": "rss-watch",
   "version": "0.2.0",
   "description": "A rss watcher optimized for synchronous data handling",
   "main": "./lib/index.js",
@@ -14,9 +14,10 @@
     "feed-watcher",
     "rss-watcher"
   ],
-  "author": "Arturo Coronel <aoitsu3@gmail.com>",
+  "author": "Onuwa Nnachi Isaac <isaac.onuwa@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "node-podcast-parser": "^2.3.0",
     "parse-rss": "^1.0.3"
   },
   "devDependencies": {
@@ -34,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/datyayu/feed-watcher.git"
+    "url": "https://github.com/iamonuwa/feed-watcher.git"
   }
 }
